@@ -1,5 +1,6 @@
+import { Category } from "@/public/types/types";
 import { NextApiRequest, NextApiResponse } from "next";
-import { Category } from "../page";
+
 type Data = {
     allergies: Allergie[];
 }

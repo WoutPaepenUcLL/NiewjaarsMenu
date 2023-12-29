@@ -1,13 +1,9 @@
 'use client';
+import { Category } from '@/public/types/types';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
-export enum Category {
-  Aperitief = 'aperitief',
-  Voorgerecht = 'voorgerecht',
-  Hoofdgerecht = 'hoofdgerecht',
-  Dessert = 'dessert',
-}
+
 
 export default function Home() {
   const router = useRouter();
