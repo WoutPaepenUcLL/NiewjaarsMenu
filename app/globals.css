@@ -1,6 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+body {
+  font-family: 'Arial', sans-serif;
+}
+.menu-container {
+  @apply flex flex-col justify-center max-w-2xl mx-auto;
+}
+.menu-category {
+  @apply bg-white rounded-md p-4 transition transform hover:shadow-md;
+}
+li {
+  @apply text-cyan-700;
+  font-family: 'Martian Mono', monospace;
+}
+h2 {
+  @apply text-2xl text-gray-800 mb-4;
+  font-family: 'Martian Mono', monospace;
+}
+.men-cat-heading{
+  @apply flex flex-row justify-between text-2xl text-white font-bold p-4;
+}
+header {
+  @apply bg-gray-800 text-white p-4 text-center;
+}
+h1 p h3 {
+  font-family: 'Martian Mono', monospace;
+}
+
+section {
+  @apply max-w-2xl mx-auto bg-white p-6 shadow-md rounded-md;
+}
+
+/* h2 {
+  @apply text-2xl text-gray-800 mb-4;
+} */
+
+ul {
+  @apply list-none p-0;
+}
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
