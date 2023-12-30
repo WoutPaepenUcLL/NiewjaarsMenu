@@ -35,8 +35,8 @@ const Index = ({ params }: { params: { category: string } }) => {
       </h1>
       
 
-     <p>{window.screen.width}</p>
-     {activeGerecht?<div className=" mb-4">
+
+     {activeGerecht?<div className="m-0">
       {/* a x button to set activeGerecht to null */}
   
       <p className="activeGerecht">{`${activeGerecht.name}: ${activeGerecht.description}`}</p>
