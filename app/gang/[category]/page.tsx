@@ -30,10 +30,10 @@ const Index = ({ params }: { params: { category: string } }) => {
       </h1>
       
 
-     
+     <p>{window.screen.width}</p>
 
       <div className="flex flex-col justify-center mt-8">
-        <div className="flex justify-center mb-4">
+        {window.screen.width>=400?<div className="flex justify-center mb-4">
           <table className="min-w-full border border-gray-300 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-gray-800 text-white">
               <tr>
@@ -53,7 +53,7 @@ const Index = ({ params }: { params: { category: string } }) => {
               ))}
             </tbody>
           </table>
-        </div>
+        </div>:null}
         <h2 className="text-2xl font-semibold mb-2 text-center">Allergie-informatie</h2>
         
         <table className="min-w-full border border-gray-300 shadow-sm rounded-lg overflow-hidden">
