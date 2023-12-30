@@ -5,6 +5,9 @@
 body {
   font-family: 'Arial', sans-serif;
 }
+main {
+  @apply pt-8;
+}
 .menu-container {
   @apply flex flex-col justify-center max-w-2xl mx-auto;
 }
