@@ -25,7 +25,7 @@ export default function Home() {
         >
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold">Aperitief</h2>
-            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor allergenen)</p>
+            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor details)</p>
             <div className="flex items-center space-x-2">
               <h3 className="text-lg">Spanje</h3>
             </div>
@@ -45,7 +45,7 @@ export default function Home() {
         >
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold">Voorgerecht</h2>
-            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor allergenen)</p>
+            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor details)</p>
             <div className="flex items-center space-x-2">
               <h3 className="text-lg">Griekenland</h3>
             </div>
@@ -62,7 +62,7 @@ export default function Home() {
         >
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold">Hoofdgerecht</h2>
-            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor allergenen)</p>
+            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor details)</p>
             <div className="flex items-center space-x-2">
               <h3 className="text-lg">Kroatië</h3>
             </div>
@@ -79,7 +79,7 @@ export default function Home() {
         >
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold">Dessert</h2>
-            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor allergenen)</p>
+            <p className="text-center text-gray-400 mb-4 opacity-70">(Klik voor details)</p>
             <div className="flex items-center space-x-2">
               <h3 className="text-lg">Italië</h3>
             </div>

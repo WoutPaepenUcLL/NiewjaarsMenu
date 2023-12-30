@@ -18,13 +18,17 @@ export const getallergies = (allergie: string) => {
         // gerechten: ['agua_de_valencia (alcohol)', 'orange_zip', 'tappas_platter (noten)', 'albondigas (vlees)'],
         gerechten: [
          { name: 'agua_de_valencia ',
-          allergie: 'alcohol'},
+          allergie: 'alcohol',
+        description: ' Een verfrissende Spaanse cocktail met sinaasappelsap, cava, wodka en gin, om de feeststemming te starten.' },
           { name: 'orange_zip',
-          allergie: '/'},
+          allergie: '/',
+        description: 'Een bruisende en fruitige sinaasappelcocktail met een pittige twist, perfect voor een sprankelend begin van de avond.'},
           { name: 'tappas_platter',
-          allergie: 'noten'},
+          allergie: 'noten',
+        description:'Een smakelijke selectie van Spaanse hapjes, waaronder olijven, chorizo, en Manchego-kaas, om te delen en te genieten.'},
           { name: 'albondigas',
-          allergie: 'vlees'},
+          allergie: 'vlees',
+        description: 'Smaakvolle Spaanse gehaktballetjes, geserveerd in een pittige tomatensaus voor een verrukkelijke start van de maaltijd.'},
         ]
       },
       {
@@ -32,7 +36,8 @@ export const getallergies = (allergie: string) => {
         // gerechten: ['Spanakopita (/)'],
         gerechten: [
           { name: 'Spanakopita',
-          allergie: '/'},
+          allergie: '/',
+        description: 'Een heerlijk Grieks gerecht met laagjes knapperig filodeeg gevuld met spinazie en feta, gebakken tot perfectie.'},
         ]
       },
       {
@@ -40,7 +45,8 @@ export const getallergies = (allergie: string) => {
         // gerechten: ['Cevapcici (vlees - neem veggie optie)'],
         gerechten: [
           { name: 'Cevapcici',
-          allergie: 'vlees'},
+          allergie: 'vlees',
+        description: 'Sappige en gekruide Balkan-gehaktrolletjes, gegrild tot in de perfectie en geserveerd met verse kruiden en een zijdezachte saus. Ook beschikbaar in een vegetarische optie.'},
         ]
       },
       {
@@ -48,11 +54,14 @@ export const getallergies = (allergie: string) => {
         // gerechten: ['Panna_Cotta (/)', 'Semifreddo (lactose)', 'Italian_Coffee (alcohol)'],
         gerechten: [
           { name: 'Panna_Cotta',
-          allergie: '/'},
+          allergie: 'pistach noten',
+        description: 'Een heerlijk Italiaans dessert met een zijdezachte textuur en een rijke frambozensmaak, geserveerd met een pistachnoten en honing.'},
           { name: 'Semifreddo',
-          allergie: 'lactose'},
+          allergie: 'lactose, noten, chocolade',
+        description: 'Een luchtig Italiaans ijsdessert, half bevroren en verrijkt met noten en chocolade voor een decadente smaakervaring.'},
           { name: 'Italian_Coffee',
-          allergie: 'alcohol'},
+          allergie: 'alcohol',
+        description: 'Een heerlijke Italiaanse koffiecocktail met een scheutje amaretto en een vleugje cacao, perfect om de maaltijd af te sluiten.'},
         ]
       },
     ];

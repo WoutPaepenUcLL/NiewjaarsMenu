@@ -28,12 +28,34 @@ const Index = ({ params }: { params: { category: string } }) => {
       >
         {params.category}
       </h1>
-      <p className="text-center text-gray-500 mb-4">(Allergie-informatie)</p>
+      
 
      
 
       <div className="flex flex-col justify-center mt-8">
+        <div className="flex justify-center mb-4">
+          <table className="min-w-full border border-gray-300 shadow-sm rounded-lg overflow-hidden">
+            <thead className="bg-gray-800 text-white">
+              <tr>
+                <th className="px-6 py-3 text-left">Naam</th>
+                <th className="px-6 py-3 text-left">Beschrijving</th>
+              </tr>
+            </thead>
+            <tbody>
+              {allergenen?.map((allergie) => (
+                <tr
+                  key={allergie.name}
+                  className="hover:bg-gray-100 hover:text-black transition duration-300"
+                >
+                  <td className="border px-6 py-4">{allergie.name}</td>
+                  <td className="border px-6 py-4">{allergie.description}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">Allergie-informatie</h2>
+        
         <table className="min-w-full border border-gray-300 shadow-sm rounded-lg overflow-hidden">
   <thead className="bg-gray-800 text-white">
     <tr>
@@ -43,7 +65,7 @@ const Index = ({ params }: { params: { category: string } }) => {
   </thead>
   <tbody>
     {allergenen?.map((allergie) => (
-      <tr key={allergie.name} className="hover:bg-gray-100 transition duration-300">
+      <tr key={allergie.name} className="hover:bg-gray-100 hover:text-black transition duration-300">
         <td className="border px-6 py-4">{allergie.name}</td>
         <td className="border px-6 py-4">{allergie.allergie}</td>
       </tr>
