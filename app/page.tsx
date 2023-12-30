@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
+  const screenWidth = window.screen.width;
   const handleItemClick = (category: Category) => {
     router.push(`/gang/${category}/`);
   };
@@ -16,7 +17,7 @@ export default function Home() {
       <p className="text-lg mb-2 text-center">Scouts Herent</p>
       <p className="text-lg mb-8 text-center">2023-2024</p>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8  md:grid-cols-2 lg:grid-cols-4">
         {/* Aperitief */}
         <div
           onClick={() => handleItemClick(Category.Aperitief)}
