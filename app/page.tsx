@@ -12,12 +12,12 @@ export default function Home() {
     router.push(`/gang/${category}/`);
   };
   return (
-    <main className="bg-gray-900 text-white min-h-screen p-8">
+    <main className="bg-gray-900 text-white min-h-screen 2xsm:pt-8">
       <h1 className="text-5xl font-bold mb-4 text-center">Nieuwjaars Menu</h1>
       <p className="text-lg mb-2 text-center">Scouts Herent</p>
       <p className="text-lg mb-8 text-center">2023-2024</p>
 
-      <div className="grid gap-8  md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8 xsm:px-8  md:grid-cols-2 lg:grid-cols-4">
         {/* Aperitief */}
         <div
           onClick={() => handleItemClick(Category.Aperitief)}

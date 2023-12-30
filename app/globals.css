@@ -9,7 +9,7 @@ body {
   @apply flex flex-col justify-center max-w-2xl mx-auto;
 }
 .menu-category {
-  @apply bg-white rounded-md p-4 transition transform hover:shadow-md xsm:w-full;
+  @apply bg-white rounded-md p-4 transition transform hover:shadow-md md:w-auto xsm:w-full lg:w-auto ;
 }
 li {
   @apply text-cyan-700;
@@ -20,7 +20,7 @@ h2 {
   font-family: 'Martian Mono', monospace;
 }
 .men-cat-heading{
-  @apply flex flex-row justify-between text-2xl text-white font-bold p-4;
+  @apply flex flex-row justify-between text-2xl text-white font-bold p-4 xl:flex-col lg:flex-col lg:justify-center lg:items-center lg:text-center lg:mb-4 lg:mt-4 lg:rounded-md lg:bg-cyan-700 lg:shadow-md lg:transform lg:hover:shadow-lg lg:hover:scale-105 lg:transition lg:duration-500 lg:ease-in-out;
 }
 header {
   @apply bg-gray-800 text-white p-4 text-center;
