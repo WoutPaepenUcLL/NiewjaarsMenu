@@ -11,6 +11,10 @@ main {
 .menu-container {
   @apply flex flex-col justify-center max-w-2xl mx-auto;
 }
+.activeGerecht{
+  @apply bg-cyan-700 text-white rounded-md p-4 transition transform hover:shadow-md md:w-auto xsm:w-full lg:w-auto ;
+  position: absolute;
+}
 .menu-category {
   @apply bg-white rounded-md p-4 transition transform hover:shadow-md md:w-auto xsm:w-full lg:w-auto ;
 }
