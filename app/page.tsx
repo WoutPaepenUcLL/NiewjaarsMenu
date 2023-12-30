@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
-  const screenWidth = window.screen.width;
+
   const handleItemClick = (category: Category) => {
     router.push(`/gang/${category}/`);
   };
