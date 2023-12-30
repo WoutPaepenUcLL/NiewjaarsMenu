@@ -80,7 +80,7 @@ const Index = ({ params }: { params: { category: string } }) => {
                   className="hover:bg-gray-100 hover:text-black transition duration-300"
                 >
                   <td className="border px-6 py-4">{allergie.name}</td>
-                  <td onClick={()=>handleitemClicked(allergie)} className="border px-6 py-4 hover:bg-slate-300 hover:text-black">klik voor uitleg gerecht</td>
+                  <td onClick={()=>handleitemClicked(allergie)} className="border px-6 py-4 hover:bg-slate-300 hover:text-black">klik hier voor uitleg gerecht</td>
                 </tr>
               ))}
             </tbody>
