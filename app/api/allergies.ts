@@ -28,7 +28,7 @@ export const getallergies = (allergie: string) => {
         description:'Een smakelijke selectie van Spaanse hapjes, waaronder olijven, chorizo, en Manchego-kaas, om te delen en te genieten.'},
           { name: 'albondigas',
           allergie: 'vlees',
-        description: 'Smaakvolle Spaanse gehaktballetjes, geserveerd in een pittige tomatensaus voor een verrukkelijke start van de maaltijd.'},
+        description: 'Smaakvolle Spaanse gehaktballetjes, geserveerd in een pittige tomatensaus voor een verrukkelijke start van de maaltijd. Genieten kan ook van het veggie alternatief.'},
         ]
       },
       {

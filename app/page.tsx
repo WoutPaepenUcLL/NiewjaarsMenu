@@ -87,6 +87,7 @@ export default function Home() {
           <ul className="text-gray-400">
             <li>Panna Cotta</li>
             <li>Semifreddo</li>
+            <li>Italian Coffee</li>
           </ul>
         </div>
       </div>
